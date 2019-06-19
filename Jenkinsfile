@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                sh 'node start app.js'
+                sh 'node app.js'
             }
         }
        

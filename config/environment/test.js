@@ -11,10 +11,10 @@ module.exports = {
      port: 8080,
      // MongoDB connection options
      mongo: {
-         uri: 'mongodb://127.0.0.1:27017/upmt_test'
+         uri: 'mongodb://10.0.75.2:27017/upmt_test'
      },
-     selfURL: 'http://127.0.0.1',
+     selfURL: 'http://10.0.75.2',
      webApp: {
-          url: "http://127.0.0.1:80"
+          url: "http://10.0.75.2:80"
      }
 };

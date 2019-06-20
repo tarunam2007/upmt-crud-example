@@ -5,6 +5,6 @@ module.exports = {
            expiresIn: 2629746000
      },
      db:{
-         URI: 'mongodb://127.0.0.1:27017/upmt'
+         URI: 'mongodb://10.0.75.2:27017/upmt'
      }
 }

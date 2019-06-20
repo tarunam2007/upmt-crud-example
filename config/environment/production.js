@@ -12,8 +12,8 @@ module.exports = {
      mongo: {
           uri: local.mongo.uri
      },
-     selfURL: 'http://localhost',
+     selfURL: 'http://127.0.0.1',
      webApp: {
-          url: "http://localhost:80"
+          url: "http://127.0.0.1:80"
      }
 };
